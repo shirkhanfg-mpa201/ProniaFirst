@@ -1,2 +1,2 @@
 ﻿global using Pronia.Models;
-//global using Pronia.ViewModels;
+global using Pronia.ViewModels;

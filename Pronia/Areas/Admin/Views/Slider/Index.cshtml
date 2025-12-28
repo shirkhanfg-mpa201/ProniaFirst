@@ -1,0 +1,23 @@
+﻿@model List<Slider>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Title</th>
+            <th scope="col">Description</th>
+            <th scope="col">Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var slider in Model) {
+            <tr>
+                <th scope="row">@slider.Id</th>
+            <td>@slider.Title</td>
+            <td>@slider.Description</td>
+            <td>@slider.ImageUrl</td>
+            
+        </tr>
+        }
+    </tbody>
+</table>
